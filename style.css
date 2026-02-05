@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FADADD;
+    overflow-x: hidden;
+}
+
+/* Main container */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* stack from top */
+    align-items: center;
+    padding-top: 20px; /* space at top */
+}
+
+/* Image container — top images */
+#image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px; /* space below for question & buttons */
+}
+
+/* Cat GIF — small to medium */
+.cat-img {
+    width: 180px; /* medium size */
+    height: auto;
+}
+
+/* Bell GIF — smaller */
+.bell-img {
+    width: 120px;
+    height: auto;
+}
+
+/* Text container */
+#text-container {
+    text-align: center;
+}
+
+/* Question text */
+#question {
+    font-family: 'Sacramento', cursive;
+    font-size: 52px;
+    margin-bottom: 20px;
+    color: #000000 !important;
+}
+
+/* Buttons */
+#options {
+    display: flex;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Sacramento', cursive;
+    background-color: #FB607F;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
