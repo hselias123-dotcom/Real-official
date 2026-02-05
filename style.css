@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FADADD;
+}
+
+/* Main layout */
+#container {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+/* Image area */
+#image-container {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: transparent;
+}
+
+/* Images */
+.cat-img {
+    width: 180px;
+    height: auto;
+}
+
+.bell-img {
+    width: 120px;
+    height: auto;
+}
+
+/* Text */
+#text-container {
+    text-align: center;
+    color: #000000;
+}
+
+#question {
+    font-family: 'Sacramento', cursive;
+    font-size: 52px;
+    color: #000000 !important; /* FORCE BLACK */
+    margin-bottom: 20px;
+    text-shadow: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 26px;
+    font-family: 'Sacramento', cursive;
+    background-color: #FB607F;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
